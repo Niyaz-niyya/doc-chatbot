@@ -1,0 +1,14 @@
+langchain
+langchain-openai
+sentence-transformers
+chromadb
+pandas
+PyMuPDF
+pdfplumber
+openpyxl
+streamlit
+python-dotenv
+tqdm
+PyPDF2
+psycopg2-binary
+sqlalchemy
