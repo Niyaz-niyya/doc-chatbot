@@ -12,3 +12,4 @@ tqdm
 PyPDF2
 psycopg2-binary
 sqlalchemy
+google-generativeai

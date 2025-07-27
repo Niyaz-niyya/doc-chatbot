@@ -16,6 +16,13 @@ class Settings:
     DB_HOST = os.getenv("DB_HOST")
     DB_PORT = os.getenv("DB_PORT")
     DB_NAME = os.getenv("DB_NAME")
+
+    # Gemini settings
+    GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+    GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.0-flash-exp")
+
+    # LLM Provider selection
+    LLM_PROVIDER = os.getenv("LLM_PROVIDER", "azure")  # "azure" or "gemini"
     
     @property
     def DATABASE_URL(self):
